@@ -433,6 +433,10 @@ h6 {
   color: #ffffff;
   transition: all 0.5s ease;
   border: 2px solid transparent;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .button-social__viber-btn {
   width: 228px;
@@ -448,6 +452,10 @@ h6 {
   color: #ffffff;
   transition: all 0.5s ease;
   border: 2px solid transparent;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 @media (min-width: 768px) {
   .button-social__telegram-btn:hover {
@@ -486,14 +494,14 @@ h6 {
     width: 178px;
     height: 50px;
     border-radius: 6px;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 15px;
   }
   .button-social__viber-btn {
     width: 178px;
     height: 50px;
     border-radius: 6px;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 15px;
   }
   .general-screen__down-block {
@@ -651,6 +659,9 @@ h6 {
   text-decoration: underline;
   font-size: 16px;
 }
+.phone-footer__body-button:hover a {
+  text-decoration: none;
+}
 .phone-footer__body-link:hover {
   transition: all 0.5 ease;
 }
@@ -802,7 +813,7 @@ h6 {
   letter-spacing: 0.05em;
   color: #000000;
   padding: 12px 70px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 @media (max-width: 767.98px) {
   .popup__content {
